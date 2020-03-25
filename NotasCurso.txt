@@ -1,0 +1,24 @@
+As funções callback 
+Callback é uma função que é usada como "callback". 
+Ela é tipicamente passada como argumento de outra função
+e/ou chamada quando um evento for acontecido,
+ou quando uma parte de código receber uma resposta de que estava à espera.
+
+
+
+> Modulos instalados
+
+//Este modulo é usado para testar o código durante o desenvolvimento
+$ sudo npm i -g nodemon
+
+
+//Varios utilitarios externos
+$ npm i lodash
+
+
+//
+//Cria um arquivo package.json
+$ npm i --save axios
+
+//Adiciona dependencias nos modulos
+$ npm i --save axios
