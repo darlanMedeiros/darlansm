@@ -4,6 +4,10 @@ Ela é tipicamente passada como argumento de outra função
 e/ou chamada quando um evento for acontecido,
 ou quando uma parte de código receber uma resposta de que estava à espera.
 
+//DIMINUIR AS PASTA ABERTAS TERMINAL
+
+PS1="${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\W \[\033[32m\]\$\[\033[00m\] "
+
 
 
 > Modulos instalados
@@ -22,3 +26,18 @@ $ npm i --save axios
 
 //Adiciona dependencias nos modulos
 $ npm i --save axios
+
+//Iniciar um projeto com npm
+
+Dentro da pasta do projeto fazer o comando npm init -y
+
+//Criar um projeto com Express
+
+
+i = instalar
+--save = salvar na pasta
+@4.16.2 = instala a versão selecionada
+-E = versão exata, nem menos nem mais
+$ npm i --save express@4.16.2 -E
+
+
