@@ -1,3 +1,5 @@
+//@ts-check
+
 const url = 'http://files.cod3r.com.br/curso-js/funcionarios.json'
 const axios = require('axios')
 
@@ -15,6 +17,7 @@ function porPais(callback,query){
     return callback.filter( f => f.pais === query)
 
 }
+
 
 
 axios.get(url).then(response => {

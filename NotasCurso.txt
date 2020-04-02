@@ -41,3 +41,9 @@ i = instalar
 $ npm i --save express@4.16.2 -E
 
 
+//Criar servidor http no node
+
+$npm i -g http-server
+
+
+
