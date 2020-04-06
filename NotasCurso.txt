@@ -45,5 +45,34 @@ $ npm i --save express@4.16.2 -E
 
 $npm i -g http-server
 
+//Criar um servidor e iniciar o nodemon
+
+Entrar na pasta onde vai criar o servidor
+
+$npm init 
+
+//Alterar o package.json
+
+{
+  "name": "ajax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "start": "nodemon server.js" //Criar essa linha, com "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+ "dependencies": { //Instalar as dependencias
+    "body-parser": "1.18.2",
+    "multer": "1.4.2"
+  },
+  "devDependencies": { //Instalar o nodemon para iniciar o servidor
+    "nodemon": "2.0.2"
+  }
+}
+
+
 
 
