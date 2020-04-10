@@ -74,5 +74,11 @@ $npm init
 }
 
 
+//Rodar paginas html local
+
+npm install -g live-server
+
+
+
 
 
